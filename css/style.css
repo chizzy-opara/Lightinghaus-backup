@@ -1,0 +1,135 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.wrapper {
+    width: 100%;
+    /* display: flex; */
+    /* margin-left: 100px; */
+}
+
+header {
+    max-height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+}
+.contact {    
+    height: 48px;
+    width: 100%;
+    padding: 20px 100px;
+    background-color: #000000;
+    color: #ffffff;
+    margin: 0 auto;
+}
+.contact a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 0 10px;
+}
+.contact span {
+    padding: 0 3px;
+}
+nav {
+    max-height: 704px;
+    display: block;
+    /* border: 3px solid green; */
+    
+}
+
+.uppernav {
+    display: flex;
+    /* border: 3px solid blue;  */
+    margin: auto; 
+    height: 70px;
+    width: 100%;
+    padding: 0 120px;
+}
+.uppernav ul {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    list-style-type: none;
+    margin: auto 0;
+    padding-right: 22px;
+}
+.uppernav ul li{
+    font-size: 13px;
+    padding: 0 10px;
+}
+.uppernav ul li a {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: #4F4F4F;
+}
+.uppernav ul li a i {
+    margin: auto;
+}
+.logo {
+    margin: auto 0;
+}
+
+.searchContainer {
+    display: inline-flex;
+    /* flex: 1 1 300px; */
+    /* position: relative; */
+    border: 0.5px solid rgba(79, 79, 79, 0.2);
+    opacity: 0.5px;
+    border-radius: 5px;    
+    /* overflow: hidden; */
+    width: 300px;
+    height: 30px;
+    margin: auto;
+}
+.searchContainer input {
+    color: #828282;
+}
+  
+.searchIcon {
+    padding: 0.5rem;
+    color: #828282;
+}
+  
+.searchBox {
+    border: 0;
+    padding: 0.5rem 0.5rem 0.5rem 0;
+    flex: 1;
+    outline: none;
+}
+  hr {
+    width: 100%;
+}
+
+
+.links {
+    display: flex;
+    flex-direction: row;
+    /* border: 3px solid blueviolet; */
+    padding: 0 100px;
+    margin: auto;
+    height: 50px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    /* font-size: 12px; */
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    
+}
+.links li {
+    list-style-type: none;
+    padding: 20px;
+    font-size: 10px;
+}
+.links li a {
+    text-decoration: none;
+}
+#col a {
+    color: #F4811F !important;
+}
